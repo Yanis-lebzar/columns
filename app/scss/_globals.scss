@@ -1,0 +1,26 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+font-family: roboto;
+color: #393C41;
+font-size: 14px;
+letter-spacing: 1px;
+background-image: url("/images/m3-homepage-desktop.jfif");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+a, a:visited, a:hover{
+    text-decoration: none;
+    color: #222427;
+}
